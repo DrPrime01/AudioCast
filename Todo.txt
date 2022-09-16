@@ -1,0 +1,1 @@
+- Remember to convert the search div and styles to a search bar component. It will be useful for other React projects
