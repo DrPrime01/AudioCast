@@ -2,6 +2,7 @@
 .page-container,
 .offer-page,
 .signup-container,
-.podcast-container {
+.podcast-container,
+.footer-container {
   padding: 0 8rem;
 }

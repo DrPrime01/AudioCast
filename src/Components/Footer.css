@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: #F4ECEC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sm-icon {
+    height: 28px;
+    width: 28px;
+    margin: 0 0.5em;
+}
+
+.footer-navlinks {
+    display: flex;
+    list-style: none;
+    padding: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.copyright {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    font-size: 0.875rem;
+    color: #B1AFAF;
+}
+

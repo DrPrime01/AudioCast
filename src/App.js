@@ -4,7 +4,9 @@ import Offers from "./Components/Offers";
 import SignUp from "./Components/SignUp";
 import Podcast from "./Components/Podcast";
 import Testimonial from "./Components/Testimonial";
+import Footer from "./Components/Footer";
 import "./App.css";
+
 function App() {
   return (
     <div className="app-container">
@@ -14,6 +16,7 @@ function App() {
       <SignUp className="signup-container"/>
       <Podcast className="podcast-container"/>
       <Testimonial className="testimonial"/>
+      <Footer className="footer-container"/>
     </div>
   );
 }
