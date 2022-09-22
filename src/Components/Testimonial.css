@@ -1,0 +1,82 @@
+.testimonial-lists {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 1.5em 0;
+}
+
+.testimonial-lists::-webkit-scrollbar{
+    display: none;
+}
+
+.testimony {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #F4ECEC;
+    margin-right: 2em;
+}
+
+.quote-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image {
+    height: 2.1875em;
+    width: 2.1875em;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.8em;
+}
+
+#testimony-one {
+    background: url("../Assets/Images/samuel.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#testimony-two {
+    background: url("../Assets/Images/shade.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#testimony-three {
+    background: url("../Assets/Images/emeka.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#testimony-four {
+    background: url("../Assets/Images/tayo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#testimony-five {
+    background: url("../Assets/Images/circle1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.quote-icon {
+    height: 2.1875em;
+    width: 2.1875em;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -2.5em 0 0 0;
+}
+
+.testimonial-header {
+    width: 350px;
+    text-align: center;
+}
+

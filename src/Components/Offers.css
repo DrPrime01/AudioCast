@@ -1,0 +1,59 @@
+.offer-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    background-color: #FBF0ED;
+    width: 100vw;
+}
+
+.offer-page > div {
+    height: 470px;
+    width: 400px;
+}
+
+.offer-img-img,
+.offers-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.offer-feats {
+    text-align: center;
+}
+
+.offers {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.offer-title {
+    padding: 20px 0;
+}
+
+.offers > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+
+.offer-img {
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.offer-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

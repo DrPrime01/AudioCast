@@ -1,0 +1,113 @@
+.podcast-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.5rem 0;
+    background-color: #F4ECEC;
+}
+
+.podcast-container > div {
+    height: 470px;
+    width: 450px;
+    padding: 2rem 0;
+}
+
+.podcast-list {
+    display: flex;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.podcast-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.podcast-list-image {
+    margin-right: 2rem;
+    height: 100px;
+    width: 30%;
+    align-self: center;
+}
+
+#one {
+    background: url("../Assets/Images/imageOne.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#two {
+    background: url("../Assets/Images/imageTwo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#three {
+    background: url("../Assets/Images/imageThree.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.podcast-list-text {
+    width: 70%;
+}
+
+.word {
+    font-weight: 700;
+    color: #4E4747;
+    font-size: 0.9rem;
+}
+
+.author {
+    color: #867676;
+    font-size: 0.8rem;
+}
+
+.author::before {
+    content: "\2014 \20";
+    color: #867676;
+}
+#one-two {
+    background: #fff;
+    padding: 10px;
+}
+
+#one-one,
+#one-two {
+    padding: 10px;
+}
+
+.podcast-image {
+    position: relative;
+    background: url("../Assets/Images/headset.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+.musicwave-img1 {
+    margin-right: -5px
+}
+
+
+.podcast-wave {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}

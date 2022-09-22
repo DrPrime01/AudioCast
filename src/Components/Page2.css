@@ -1,0 +1,93 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 550px;
+    align-items: stretch;
+    padding: auto 10px auto 25px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+
+.header {
+    width: 450px;
+}
+
+.text-page2 {
+    width: 350px;
+    text-align: right;
+    margin: auto 0;
+}
+
+.text > span {
+    display: block;
+}
+
+.text-body-page2 > p {
+    line-height: 1.5;
+    color: #989898;
+}
+
+.text-btn {
+    padding: 10px 24px;
+    background: transparent;
+    border: 1px solid #E08589;
+    color: #E08589;
+    margin-top: -5px;
+}
+
+.page-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container {
+    height: 380px;
+    width: 300px;
+    background-color: #FBF0ED;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-controls {
+    display: flex;
+    width: auto;
+    margin-top: 10px;
+}
+
+.card-controls img {
+    height: 40px;
+}
+
+.card-img,
+.control-img,
+.wave-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.control-btn {
+    width: 20%;
+    height: auto;
+}
+
+.control-waves {
+    width: 80%;
+    height: auto;
+}
+
+.card-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #989898;
+}
+
+.card-text-container > p {
+    margin-bottom: -5px;
+}

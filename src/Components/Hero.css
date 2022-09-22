@@ -1,5 +1,144 @@
 .hero {
-    height: 100vh;
+    min-height: 80vh;
     width: 100vw;
     background: #FBF0ED;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#image-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.navbar-box {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image, 
+.hero-text {
+    width: 45%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image {
+    background: url("../Assets/Images/turntable.png");
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+    width: 80%;
+    position: relative;
+    border-radius: 20px;
+    margin: auto 0 auto auto;
+}
+
+.musicwave {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.text > h1 {
+    line-height: 4rem;
+    font-size: 2.5rem;
+}
+
+.text > p {
+    line-height: 2.25rem;
+    margin-bottom: 1em;
+    margin-top: -1em;
+    font-size: 1.3rem;
+    color: #989898;
+}
+
+/* Hero Cicle image styles */
+
+.three-circles {
+    width: 15em;
+    height: 2.5em;
+    display: flex;
+    margin-top: 1.875em;
+}
+
+.three-circles-container {
+    height: inherit;
+    width: 5em;
+    margin-right: 0.625em;
+    display: inline-block;
+    position: relative;
+}
+
+.circle {
+    height: 2.1875em;
+    width: 2.1875em;
+    border-radius: 50%;
+    display: inline;
+    border: 1px solid #fff;
+    
+}
+
+.circle-1 {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    background: url("../Assets/Images/circle1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.circle-2 {
+    position: absolute;
+    left: 1.25em;
+    z-index: 2;
+    background: url("../Assets/Images/circle2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.circle-3 {
+    position: absolute;
+    right: 0;
+    background: url("../Assets/Images/circle3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.circle-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    width: 10em;
+    color: #989898;
+}
+
+/* Hero Button style */
+.btn {
+    padding: 0.625em 1.5em;
+    border-radius: 0.3125em;
+}
+
+.btn.get-started {
+    margin-right: 1.5625em;
+    background: #F4B5B8;
+    color: black;
+    border: none;
+}
+
+.btn.btn-outline {
+    background: transparent;
+    border: 1px solid #E08589;
+    color: #E08589;
 }

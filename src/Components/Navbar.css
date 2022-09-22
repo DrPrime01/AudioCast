@@ -1,9 +1,9 @@
 .navbar-container {
     display: flex;
-    background-color: #FBF0ED;
     align-items: center;
-    margin: auto 7.5rem;
+    /* margin: auto 7.5rem; */
     justify-content: space-between;
+    width: 100%;
 }
 
 .logo > span {
